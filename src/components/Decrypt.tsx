@@ -184,7 +184,7 @@ export default function Decrypt() {
               rows={5}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="resize-none"
+              className="resize-none leading-loose"
             />
           </div>
           <div>
@@ -212,7 +212,7 @@ export default function Decrypt() {
               <h3 className="text-lg font-semibold mb-2">
                 Decrypted Messages:
               </h3>
-              <pre className="text-md font-mono bg-background p-2 rounded border whitespace-pre-wrap">
+              <pre className="text-md font-mono bg-background p-2 rounded border whitespace-pre-wrap leading-loose">
                 {result || "No valid messages to decrypt."}
               </pre>
             </div>
