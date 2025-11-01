@@ -39,7 +39,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --font-sans: Inter, sans-serif;
+  --font-sans: JetBrains Mono, monospace;
   --font-mono: JetBrains Mono, monospace;
   --font-serif: Georgia, serif;
   --radius: 0.5rem;
@@ -102,7 +102,7 @@
   --sidebar-border: oklch(0.9115 0.0216 285.9625);
   --sidebar-ring: oklch(0.5417 0.1790 288.0332);
   --destructive-foreground: oklch(1.0000 0 0);
-  --font-sans: Inter, sans-serif;
+  --font-sans: JetBrains Mono, monospace;
   --font-serif: Georgia, serif;
   --font-mono: JetBrains Mono, monospace;
   --shadow-color: hsl(240 30% 25%);
@@ -158,7 +158,7 @@
   --sidebar-ring: oklch(0.7162 0.1597 290.3962);
   --destructive-foreground: oklch(1.0000 0 0);
   --radius: 0.5rem;
-  --font-sans: Inter, sans-serif;
+  --font-sans: JetBrains Mono, monospace;
   --font-serif: Georgia, serif;
   --font-mono: JetBrains Mono, monospace;
   --shadow-color: hsl(240 30% 25%);
@@ -184,7 +184,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
     letter-spacing: var(--tracking-normal);
   }
 }
