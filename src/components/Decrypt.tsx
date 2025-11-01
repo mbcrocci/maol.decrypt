@@ -197,6 +197,11 @@ export default function Decrypt() {
               placeholder="Enter key..."
               value={key}
               onChange={(e) => setKey(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  handleDecrypt();
+                }
+              }}
             />
           </div>
           <Button onClick={handleDecrypt} className="w-full">
